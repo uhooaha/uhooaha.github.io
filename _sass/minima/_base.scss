@@ -137,10 +137,10 @@ a {
  */
 blockquote {
   color: $brand-color;
-  border-left: 4px solid $border-color-01;
-  padding-left: $spacing-unit * .5;
+  border-left: 4px solid $border-color-04;
+  padding: $spacing-unit * .3 $spacing-unit * .6;
   @include relative-font-size(1.125);
-  font-style: italic;
+  // font-style: italic;
 
   > :last-child {
     margin-bottom: 0;

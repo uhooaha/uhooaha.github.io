@@ -22,17 +22,20 @@ $lm-code-background-color: #eeeeff !default;
 
 $lm-link-base-color:       #2a7ae2 !default;
 $lm-link-visited-color:    darken($lm-link-base-color, 15%) !default;
-$lm-link-hover-color:      $lm-text-color !default;
+$lm-link-hover-color:      #2a7ae2  !default;
 
 $lm-border-color-01:       $lm-brand-color-light !default;
 $lm-border-color-02:       lighten($lm-brand-color, 35%) !default;
 $lm-border-color-03:       $lm-brand-color-dark !default;
+$lm-border-color-04:       #4F75FF !default;
 
 $lm-table-text-color:      lighten($lm-text-color, 18%) !default;
 $lm-table-zebra-color:     lighten($lm-brand-color, 46%) !default;
 $lm-table-header-bg-color: lighten($lm-brand-color, 43%) !default;
 $lm-table-header-border:   lighten($lm-brand-color, 37%) !default;
 $lm-table-border-color:    $lm-border-color-01 !default;
+
+$cm-hl-color-01:           #F96E2A ;
 
 
 // Syntax highlighting styles should be adjusted appropriately for every "skin"
@@ -123,6 +126,7 @@ $dm-link-hover-color:      $dm-text-color !default;
 $dm-border-color-01:       $dm-brand-color-dark !default;
 $dm-border-color-02:       $dm-brand-color-light !default;
 $dm-border-color-03:       $dm-brand-color !default;
+$dm-border-color-04:       #4F75FF !default;
 
 $dm-table-text-color:      $dm-text-color !default;
 $dm-table-zebra-color:     lighten($dm-background-color, 4%) !default;
@@ -227,6 +231,7 @@ $link-hover-color: $lm-link-hover-color;
 $border-color-01: $lm-border-color-01;
 $border-color-02: $lm-border-color-02;
 $border-color-03: $lm-border-color-03;
+$border-color-04: $lm-border-color-04;
 
 $table-text-color: $lm-table-text-color;
 $table-zebra-color: $lm-table-zebra-color;

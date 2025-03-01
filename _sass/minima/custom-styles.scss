@@ -2,37 +2,61 @@
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
 
 
-.post-content {
-    .post-desc {
+.wrapper {
+    .caption {
+        color:#888;
+    }
+    .posts-list {margin:0; padding:0;}
+    .posts-list > li  {
+        list-style-type: none;
+        margin:0; 
+        padding:0.5rem 0;
+        font-size:1.125rem;
+    } 
+    .posts-list > li > h3 > small {
+        font-size: 0.925rem;
+        font-weight: 200;
+        color:#999
+    }
+
+  .post-desc {
         width:calc(100% - 3rem);
         padding:1.5rem 1.5rem;
         border: 1px solid #eaeaea;
         background: #f3f5f6;
     }
-  
+
     .post-desc > p {
-        font-size: 1rem;
+        font-size: 0.875rem;
         word-wrap: break-word;
+        margin:0 ;
     }
 
-  .post-desc > ul {
+    .post-desc > ul {
         margin:0; padding:0;
-  }
-  .post-desc > ul > li {
+    }
+    .post-desc > ul > li {
         margin:0.25rem; padding:0;
-  }
+    }
+
+    .post-desc .span-b-01 {
+        color: $cm-hl-color-01;
+        font-weight: 700 ;
+    }
+
 }
 
-.site-header {
-    
-    .wrapper nav .header-category {
-       width:200px; display: flex; justify-content: space-between; align-items: center;
+.site-nav {
+
+    input ~ .trigger > div {
+        display: flex; justify-content: space-between; align-items: center; gap:1rem
+      }
+
+    input ~ .trigger > div > ul {
+        display: flex; justify-content: space-between; align-items: center; gap:1rem;
+        margin: 0; padding: 0;
     }
-    .wrapper nav .header-category ul {
-        display: flex; justify-content: space-between; align-items: center;
-    }
-    .wrapper nav .header-category ul li {
+    input ~ .trigger > div > ul > li {
         list-style-type: none;
     }
-
 }

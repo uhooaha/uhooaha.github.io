@@ -17,15 +17,32 @@
           </span>
         </label>
         
-        <div class="header-category">
-          <div class="trigger">
+        <div class="trigger">
+          <div>
             {%- for path in page_paths -%}
-              {%- assign my_page = site.pages | where: "path", path | first -%}
-              {%- if my_page.title -%}
-              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
-              {%- endif -%}
-            {%- endfor -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%} 
+            <ul>
+      
+              {% assign pages_list = site.pages %}
+              {% for node in pages_list %}
+                {% if node.title != null %}
+                  {% if node.layout == "category" %}
+                    <li><a class="category-link {% if page.url == node.url %} active{% endif %}"
+                    href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a></li>
+                  {% endif %}
+                {% endif %}
+              {% endfor %}
+              
+          </ul>
+            <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+           
+            {%- endif -%}
+          {%- endfor -%}
           </div>
+         
+        </div>
+        <!--div class="header-category">
           <ul>
     
             {% assign pages_list = site.pages %}
@@ -39,7 +56,15 @@
             {% endfor %}
             
         </ul>
-        </div>
+          <div class="trigger">
+            {%- for path in page_paths -%}
+              {%- assign my_page = site.pages | where: "path", path | first -%}
+              {%- if my_page.title -%}
+              <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+              {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div-->
          
       </nav> 
     {%- endif -%}
