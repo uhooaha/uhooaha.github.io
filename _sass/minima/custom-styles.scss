@@ -3,9 +3,15 @@
 
 
 .wrapper {
-    .caption {
-        color:#888;
+    p {
+        line-height: 168%;
+        margin:$spacing-unit * .6 0;
     }
+    .caption {
+        color:#888;            
+        margin:0;    
+    }
+
     .posts-list {margin:0; padding:0;}
     .posts-list > li  {
         list-style-type: none;
