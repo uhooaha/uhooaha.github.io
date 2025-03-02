@@ -1,4 +1,4 @@
-title: 사행심으로 점철된 주린이의 투자일지
+title: 개인적인 블로그
 author:
   name: uhooaha
   email: uhooaha@kakao.com
@@ -6,8 +6,7 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  It will stand tall as a stock.
-
+  오만 잡다한 생각이 담길 예정인 블로그
 # Build settings
 
 # If you clone the Minima repo and build locally, use this setting.

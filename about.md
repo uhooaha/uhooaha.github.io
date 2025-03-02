@@ -4,26 +4,24 @@ title: About
 permalink: /about/
 ---
 
-투자 초보의 좌충우돌 투자일지가 메인인 블로그로
-어설픈 자기확신과 그에 따른 좌절의 기록이라고도 할 수 있다.  
-...뭐 어떻게든 되겠지.   
+오만 잡다한 생각이 담긴 블로그이다.       
 
-참고로 초반에 내가 깨달았다고 생각한 것들은 대부분 잘못된 내용이 많다.    
-그냥 작성해두는 이유는 내가 어떤 수정의 과정을 거쳤는 지 기록으로 남기고 싶어서임.     
+사행심에 쩔들어 작성한 주린이의 투자일지 라든가,        
+매번 잊어버리고 다시 검색하는 온갖 팁들이라든가,          
+그냥 아무때나 쓸데없이 드는 잡생각이라든가.
 
-> It will stand tall as a stock...
-
-[personal list](http://chungchoon98.com){:target="_blank"}
-
-<!--
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+아무튼 그러하다
 
 
-[jekyll-organization]: https://github.com/jekyll
--->
+
+<!-- 
+깃허브 페이지로 블로그를 하면서       
+예전에 테터툴즈로 블로그를 설치해 사용하던 생각이 났다.        
+
+물론 그 설치형 블로그보다 훨씬 기능이 뒤떨어지지만       
+그만큼의 자유도는 있겠지.       
+나야 재주가 없어 글을 등록할 수 있는 프로그램을 만들지는 못하고,       
+그냥 마크다운 페이지를 추가하는 방식으로 글을 올리겠지만      
+     
+그게 왜 워드프레스만큼 크지 않았는지 모르겠다.       
+우리나라 서비스 수준이라면 워드프레스는 아무것도 아니였을텐데.  -->
