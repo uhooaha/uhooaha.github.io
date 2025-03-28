@@ -1,7 +1,7 @@
 title: 내가 보려고 모아놓은 유용한 팁들 
 email: your@email.here
 greeting: Israh Theme
-remote_theme: ezrasavard/israh
+# remote_theme: ezrasavard/israh
 description: > # this means to ignore newlines until another tag
     Israh is a responsive Jekyll theme with warm greys, a single column layout, and not much else.
 favicon: favicon.png
