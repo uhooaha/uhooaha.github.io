@@ -5,7 +5,7 @@ greeting: Israh Theme
 description: > # this means to ignore newlines until another tag
     Israh is a responsive Jekyll theme with warm greys, a single column layout, and not much else.
 favicon: favicon.png
-navlinks:
+navLinks:
     -
         text: Home
         url: /
@@ -25,7 +25,7 @@ navlinks:
 
 # Build settings
 paginate: 3
-baseurl: "/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 #baseurl: ""
 url: "https://chungchoon98.com" # the base hostname & protocol for your site
 highlights: pygments
