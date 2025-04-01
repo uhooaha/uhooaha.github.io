@@ -22,6 +22,7 @@ navLinks:
         text: LinkedIn
         url: https://www.linkedin.com/in/ezrasavard
         internal: False
+category_list: [AI 활용팁, 깃허브 페이지 만들기, 디자인 작업팁, 생활에 필요한 팁]
 
 # Build settings
 paginate: 3
