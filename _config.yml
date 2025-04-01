@@ -59,3 +59,7 @@ defaults:
             author: "uhooaha"
             layout: "page"
 
+collections:
+  posts:
+    output: true
+permalink: /:categories/:title/
