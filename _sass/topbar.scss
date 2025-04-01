@@ -29,6 +29,14 @@
       margin-top: 48px;
       font-size: 20px;
       text-align: left;
+
+      ul {
+        width:100%;
+        display: flex;
+        justify-content: flex-start;
+        gap:1rem;
+      }
+      ul > li {list-style-type: none;}
     }
     .navlink {
       color: $dark-color;
