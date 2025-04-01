@@ -1,7 +1,7 @@
 ---
-layout: post
 title: This Post Title is All Title-y
 date: 2018-04-21
+categories: tip-life
 ---
 
 I saw their production of 'Giselle' in 1890. I wept like a baby, and I was evil! Boy, when they were handing out school spirit, you didn't even stand in line, did you?[^1]
