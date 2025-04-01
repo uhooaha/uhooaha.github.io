@@ -1,5 +1,5 @@
-title: 내가 보려고 모아놓은 유용한 팁들 
-email: your@email.here
+title: 내가 보려고 모아 놓은 TIPs
+email: uhooaha@kakao.com
 greeting: Israh Theme
 # remote_theme: ezrasavard/israh
 description: > # this means to ignore newlines until another tag
@@ -48,13 +48,13 @@ defaults:
             path: ""
             type: "posts"
         values:
-            author: "Ezra Savard"
+            author: "uhooaha"
             layout: "post"
     -
         scope:
             path: ""
             type: "pages"
         values:
-            author: "Ezra Savard"
+            author: "uhooaha"
             layout: "page"
 
