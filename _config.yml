@@ -30,7 +30,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 #baseurl: ""
 url: "https://chungchoon98.com" # the base hostname & protocol for your site
 highlights: pygments
-permalink: posts/:title/
+# permalink: posts/:title/
 include: ["_pages"]
 plugins: [jekyll-paginate]
 markdown: kramdown
@@ -62,4 +62,4 @@ defaults:
 collections:
   posts:
     output: true
-permalink: /:categories/:title/
+permalink: /:title/
