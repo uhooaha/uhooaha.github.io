@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  Moustaches!
 date:   2016-01-01
 categories: tip-ai-usage
