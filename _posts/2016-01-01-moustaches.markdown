@@ -1,6 +1,7 @@
 ---
 title:  Moustaches!
 date:   2016-01-01
+categories: tip-ai-usage
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
