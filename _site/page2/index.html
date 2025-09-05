@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+	<title>내가 보려고 모아 놓은 TIPs - Home</title>
+
+
+<meta name="description" content="Israh is a responsive Jekyll theme with warm greys, a single column layout, and not much else.
+">
+
+<link rel="icon" href="/favicon.png">
+<link rel="apple-touch-icon" href="/favicon.png">
+<link rel="stylesheet" href="/css/main.css">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+<script src="//code.jquery.com/jquery-1.12.4.min.js"></script>
+<!-- math rendering with katex -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.css" integrity="sha384-TEMocfGvRuD1rIAacqrknm5BQZ7W7uWitoih+jMNFXQIbNl16bO8OZmylH/Vi/Ei" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.9.0/katex.min.js" integrity="sha384-jmxIlussZWB7qCuB+PgKG1uLjjxbVVIayPJwi6cG6Zb4YKq0JIw+OMnkkEC7kYCq" crossorigin="anonymous"></script>
+
+	</head>
+	<body>
+		<div class=topbar>
+    <div class=topbar-contents>
+        <a class=title href="/">내가 보려고, <br/>모아놓은 TIPs</a>
+        <nav>
+            
+
+            <ul class="category">
+                <li><a href="/category/tip-ai-usage">AI 활용팁</a></li>
+                <li><a href="/category/tip-github">깃허브 페이지 만들기</a></li>
+                <li><a href="/category/tip-design">디자인 작업팁</a></li>
+                <li><a href="/category/tip-life">생활에 필요한 팁</a></li>
+            </ul>
+        </nav>
+
+    </div>
+</div>
+		  
+		<main>
+			<!-- This loops through the paginated posts -->
+
+  <div class=snippet>
+    <div class=title-box>
+        <a href="/somecode/">
+          <div class=title>Coding and Hipster Ipsum</div>
+          <div class=date>01 Feb 2016</div>
+        </a>
+    </div>
+    
+      <div class=excerpt><p>Four dollar toast lyft viral heirloom flexitarian, etsy shoreditch vaporware ramps meh. Jianbing roof party put a bird on it kombucha kale chips sustainable. Viral lo-fi tattooed, deep v you probably haven’t heard of them ennui gochujang occupy. Fanny pack gentrify fingerstache live-edge. Normcore authentic poutine quinoa skateboard copper mug. Vaporware fanny pack neutra fixie affogato. Hoodie photo booth flannel waistcoat la croix chia.</p>
+
+</div>
+      <div class=more><a href="/somecode/"></a>- Read more -</a></div>
+    
+  </div>
+
+  <div class=snippet>
+    <div class=title-box>
+        <a href="/moustaches/">
+          <div class=title>Moustaches!</div>
+          <div class=date>01 Jan 2016</div>
+        </a>
+    </div>
+    
+      <div class=excerpt><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+</div>
+      <div class=more><a href="/moustaches/"></a>- Read more -</a></div>
+    
+  </div>
+
+
+<!-- Pagination links -->
+
+<div class=pagination>
+  
+    <span><a href="/">&laquo;</a></span>
+  
+
+  
+    
+      <span><a href="/">1</a></span>
+    
+  
+    
+      <span>2</span>
+    
+  
+
+  
+    <span>&raquo;</span>
+  
+</div>
+
+			<footer>
+    
+    
+        <h2><a href="/">Home</a></h2>
+    
+    <p>&copy; 2018 <a href=http://www.github.com/ezrasavard/israh-jekyll-theme>Israh Theme</a></p>
+</footer>
+
+		</main>
+		<script>
+			$("script[type='math/tex']").replaceWith(function() {
+				var tex = $(this).text();
+				return katex.renderToString(tex, {displayMode: false});
+			});
+			$("script[type='math/tex; mode=display']").replaceWith(function() {
+				var tex = $(this).html();
+				return katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true});
+			});
+		  </script>
+	</body>
+</html>
+
